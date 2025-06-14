@@ -184,12 +184,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🎉 Acknowledgments
 
-- **🙏 Community Contributors** - Thank you for your suggestions and improvements
 - **🎨 External CSS Authors** - Credits to original snippet creators:
   - [Krammeth](https://github.com/Krammeth/css-snippets) - Profile Popouts
   - [Davart154](https://github.com/davart154/Themes) - Simplified Panel Area
   - [Abbie](https://github.com/abbie/discord-css) - Clutter Removal
-- **💻 Discord Modding Community** - For making Discord customization possible
+- **💻 Vencord Community** - For their shared snippets
 
 <div align="center">
   <p>
