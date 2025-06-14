@@ -144,7 +144,7 @@
 
 /* Make chatbar more constsistent */
 .channelBottomBarArea_f75fb0>div {
-  margin: 6px 6px 9px 6px !important;
+  margin: 5px 6px 9px 6px !important;
   min-height: 60px;
 }
 
@@ -269,8 +269,8 @@
 
 /* View full bio */
 [class*=descriptionClamp] {
-  -webkit-line-clamp: 9999999;
-  line-clamp: 9999999;
+  -webkit-line-clamp: unset; /* 9999999 */
+  line-clamp: unset; /* 9999999 */
   max-height: unset;
 }
 
