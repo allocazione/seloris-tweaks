@@ -1,4 +1,6 @@
-# 🌘 Seloris' Discord Tweaks
+<div align="center">
+  <h1>🌘 Seloris' Discord Tweaks</h1>
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
@@ -11,8 +13,6 @@
   ✨ <strong>A comprehensive collection of Discord CSS tweaks</strong> ✨<br>
   Designed to enhance your Discord experience with modern UI improvements, cleaner interfaces, and better usability.
 </p>
-
----
 
 ## 🚀 Features
 
@@ -37,8 +37,6 @@
 - **🔧 Fixed Icon Alignments** - Pixel-perfect interface
 - **📜 Darker Scrollbars** - Better visual contrast
 - **⚡ Hidden Hover Reactions** - Reduces UI clutter
-
----
 
 ## 📦 Installation
 
@@ -87,8 +85,6 @@
 3. **Paste** into your preferred CSS injection method
 4. **Apply** the styles to Discord
 
----
-
 ## ⚙️ Configuration
 
 The theme includes several customizable variables in the `:root` section:
@@ -111,8 +107,6 @@ The theme includes several customizable variables in the `:root` section:
 }
 ```
 
----
-
 ## 🎯 Optimization Tips
 
 ### 🚀 **Performance Optimization**
@@ -132,8 +126,6 @@ The theme includes several customizable variables in the `:root` section:
 - **🐛 Disable Conflicting Themes**: Only use one theme at a time
 - **📝 Check Console**: Look for CSS errors in Developer Tools
 - **🔧 Validate CSS**: Ensure proper syntax in custom modifications
-
----
 
 ## 🤝 Contributing
 
@@ -158,8 +150,6 @@ We welcome contributions! Here's how you can help:
 - **Accessibility**: Consider all users
 - **Performance**: Optimize for speed
 
----
-
 ## 📚 Resources
 
 ### 🔗 **Useful Links**
@@ -174,13 +164,9 @@ We welcome contributions! Here's how you can help:
 - [**Color Palette Generator**](https://coolors.co/) - Create color schemes
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/) - Validate CSS syntax
 
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🎉 Acknowledgments
 
@@ -191,11 +177,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
   - [Abbie](https://github.com/abbie/discord-css) - Clutter Removal
 - **💻 Discord Modding Community** - For making Discord customization possible
 
----
-
 <div align="center">
   <p>
-    <strong>⭐ If you found this useful, please star the repository! ⭐</strong><br>
+    <strong>⭐ If you used this tweaks, please star the repository! ⭐</strong><br>
     <sub>Made with ❤️ by <a href="https://github.com/allocazione">@allocazione / Seloris</a></sub>
   </p>
+</div>
 </div>
