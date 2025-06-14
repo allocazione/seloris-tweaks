@@ -40,10 +40,24 @@
 
 ## 📦 Installation
 
+### 🎯 **Choose Your Installation Type**
+
+**🔄 Auto-Updating Theme (Recommended)**
+- **File**: `seloris-autoupd.theme.css`
+- **Pros**: Automatically receives updates and new features
+- **Cons**: Requires internet connection, may occasionally introduce breaking changes
+- **Best for**: Users who want the latest features and don't mind occasional updates
+
+**📁 Static Theme**
+- **File**: `seloris-tweaks.theme.css` 
+- **Pros**: Consistent experience, works offline, no unexpected changes
+- **Cons**: Manual updates required for new features and fixes
+- **Best for**: Users who prefer stability and control over updates
+
 ### 🔧 **For Vencord Users**
 
 #### 📁 **Local Installation**
-1. **Download** the `seloris-tweaks.theme.css` file
+1. **Download** the `seloris-*.theme.css` file
 2. **Navigate** to your Vencord themes folder:
    - **Windows**: `%APPDATA%\Vencord\themes\`
    - **macOS**: `~/Library/Application Support/Vencord/themes/`
@@ -62,7 +76,7 @@
 ### 🌐 **For BetterDiscord Users**
 
 #### 📁 **Local Installation**
-1. **Download** the `seloris-tweaks.theme.css` file
+1. **Download** the `seloris-*.theme.css` file
 2. **Navigate** to your BetterDiscord themes folder:
    - **Windows**: `%APPDATA%\BetterDiscord\themes\`
    - **macOS**: `~/Library/Application Support/BetterDiscord/themes/`
@@ -81,7 +95,7 @@
    ```css
    @import url('https://raw.githubusercontent.com/allocazione/seloris-tweaks/main/css/seloris-tweaks.theme.css');
    ```
-2. **Or copy** the contents of `seloris-tweaks.theme.css`
+2. **Or copy** the contents of `seloris-*.theme.css`
 3. **Paste** into your preferred CSS injection method
 4. **Apply** the styles to Discord
 

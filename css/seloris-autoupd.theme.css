@@ -1,0 +1,12 @@
+/**
+ * @name 🌘 Seloris' Tweaks (Auto-Updating)
+ * @description 🌘 A comprehensive collection of Discord CSS tweaks - Auto-updating version
+ * @author Seloris (@allocazione)
+ * @version 1.0.0
+ * @website https://github.com/allocazione/seloris-tweaks
+ * @source https://github.com/allocazione/seloris-tweaks/blob/main/css/seloris-autoupd.theme.css
+ * @updateUrl https://raw.githubusercontent.com/allocazione/seloris-tweaks/main/css/seloris-autoupd.theme.css
+ */
+
+/* Auto-updating import of the main theme */
+@import url('https://raw.githubusercontent.com/allocazione/seloris-tweaks/main/css/seloris-tweaks.theme.css');
