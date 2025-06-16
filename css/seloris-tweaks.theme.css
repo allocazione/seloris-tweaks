@@ -1,7 +1,7 @@
 /**
  * @name 🌘 Seloris' Tweaks
  * @author Seloris (@allocazione)
- * @version 1.0.2
+ * @version 1.0.3
  * @description 🌘 A collection of tweaks for Vencord (or any other client) to enhance the Discord experience.
  * @website https://github.com/allocazione/seloris-tweaks
  * @source https://github.com/allocazione/seloris-tweaks/blob/main/css/seloris-tweaks.theme.css
@@ -229,7 +229,9 @@
 }
 
 /* Remove profile reactions */
-.avatarPopover__2d0ab, .statusPopover__2d0ab, .activityPopover__2d0ab{display:none;}
+.avatarPopover__2d0ab, .statusPopover__2d0ab, .activityPopover__2d0ab { 
+  display: none;
+}
 
 /* Change collapse icon order */
 .containerDefault__29444 {
@@ -285,6 +287,10 @@
   display: none;
 }
 
+/* Fully hide profile effects */
+[class^="profileEffects"] {
+  display: none;
+}
 
 /*
 * ||||||||||||||||||||||||||||||||||||||
