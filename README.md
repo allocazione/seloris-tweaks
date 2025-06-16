@@ -130,16 +130,13 @@ The theme includes several customizable variables in the `:root` section:
 - **🔍 Monitor Performance**: Use Discord's Developer Tools to check for issues
 
 ### 🎨 **Visual Optimization**
-- **📱 Mobile Compatibility**: Test on different screen sizes
 - **🌗 Dark Mode**: Optimized for Discord's dark theme
 - **🎪 Custom Colors**: Modify CSS variables to match your preferences
-- **📐 Scaling**: Adjust font sizes and spacing for your display
 
 ### 🛠️ **Troubleshooting**
 - **🔄 Clear Cache**: Restart Discord after applying themes
 - **🐛 Disable Conflicting Themes**: Only use one theme at a time
 - **📝 Check Console**: Look for CSS errors in Developer Tools
-- **🔧 Validate CSS**: Ensure proper syntax in custom modifications
 
 ## 🤝 Contributing
 
