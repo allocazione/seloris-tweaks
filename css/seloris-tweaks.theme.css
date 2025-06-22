@@ -282,6 +282,12 @@
   line-clamp: 10000000 !important;
 }
 
+[class*=descriptionClamp] {
+  -webkit-line-clamp: unset; /* 9999999 */
+  line-clamp: unset; /* 9999999 */
+  max-height: unset;
+}
+
 [class*=viewFullBio] {
   display: none;
 }
