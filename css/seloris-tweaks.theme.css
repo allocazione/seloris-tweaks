@@ -23,8 +23,6 @@
 */
 
 
-/* Change profile popouts -> See fix @ Extra styling */
-@import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/PopoutsRevamped.css');
 /* Simplified panels area */
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 /* Remove excessive clutter in Discord */
@@ -63,7 +61,7 @@
 */
 
 
-/* Fix for profile popouts decorations */
+/* Fix for profile decorations */
 .root__24502.root__49fc1.small__49fc1 {
   > .profileEffects__01370 {
     opacity: 0.2 !important;
