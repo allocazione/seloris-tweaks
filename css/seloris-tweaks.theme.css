@@ -22,7 +22,8 @@
 * ||||||||||||||||||||||||||||||||||||||
 */
 
-
+/* New full profile rework */
+@import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/expProfile.css");
 /* Simplified panels area */
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 /* Remove excessive clutter in Discord */
@@ -60,13 +61,6 @@
 * ||||||||||||||||||||||||||||||||||||||
 */
 
-
-/* Fix for profile decorations */
-.root__24502.root__49fc1.small__49fc1 {
-  > .profileEffects__01370 {
-    opacity: 0.2 !important;
-  }
-}
 
 /* Make context menu more compact */
 .layer_da8173 > .menu_c1e9c4 {
@@ -257,6 +251,61 @@
 [class^="profileEffects"] {
   display: none;
 }
+
+/* Hide SVG icons in buttons */
+.winButton_c38106 svg {
+  display: none !important;
+}
+
+/* Anchor window buttons to always-visible bar */
+.withFrame-2dL45i .winButtons_c38106 {
+  position: absolute !important;
+  top: 12px !important;
+  right: 12px !important;
+  height: 36px;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  z-index: 9999;
+}
+
+/* macOS button style */
+.winButton_c38106 {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px !important;
+  margin-left: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  -webkit-app-region: no-drag;
+}
+
+/* Colors for each control */
+.winButtonMinMax_c38106[aria-label="Minimize"] {
+  background-color: #FFBD44;
+}
+.winButtonMinMax_c38106[aria-label="Maximize"] {
+  background-color: #00CA4E;
+}
+.winButtonClose_c38106 {
+  background-color: #FF605C;
+  margin-right: 12px;
+}
+
+.winButton_c38106:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Make title bar draggable, except buttons */
+.appMount-3lHmkl,
+.withFrame-2dL45i {
+  -webkit-app-region: drag;
+}
+.winButton_c38106 {
+  -webkit-app-region: no-drag;
+}
+
 
 /*
 * ||||||||||||||||||||||||||||||||||||||
