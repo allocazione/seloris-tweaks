@@ -68,7 +68,7 @@
 #### 🌐 **Direct Import (Recommended)**
 1. **Copy** this URL:
    ```
-   https://raw.githubusercontent.com/allocazione/seloris-tweaks/main/css/seloris-tweaks.theme.css
+   https://raw.githubusercontent.com/allocazione/seloris-tweaks/refs/heads/main/css/seloris-tweaks.theme.css
    ```
 2. **Paste** it in Vencord's theme import field
 3. **Apply** and enjoy!
@@ -88,12 +88,12 @@
 1. **Open** BetterDiscord settings
 2. **Go to** the Themes tab
 3. **Click** "Open Theme Folder" or use the import URL feature
-4. **Import** using: `https://raw.githubusercontent.com/allocazione/seloris-tweaks/main/css/seloris-tweaks.theme.css`
+4. **Import** using: `https://raw.githubusercontent.com/allocazione/seloris-tweaks/refs/heads/main/css/seloris-tweaks.theme.css`
 
 ### 🎨 **For Custom CSS Injection**
 1. **Import** directly via URL:
    ```css
-   @import url('https://raw.githubusercontent.com/allocazione/seloris-tweaks/main/css/seloris-tweaks.theme.css');
+   @import url('https://raw.githubusercontent.com/allocazione/seloris-tweaks/refs/heads/main/css/seloris-tweaks.theme.css');
    ```
 2. **Or copy** the contents of `seloris-*.theme.css`
 3. **Paste** into your preferred CSS injection method
