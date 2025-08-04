@@ -297,6 +297,84 @@ align-content: center;
   }
 }
 
+/* Compact member list */
+.member__5d473 {
+    height: 32px!important;
+    padding: var(--space-xxs) var(--space-xs);
+    margin: calc(var(--space-xxs) / 2) var(--space-xxs);
+        &:hover {
+        background: var(--bg-overlay-hover, var(--background-modifier-hover));
+    }
+}
+
+.memberInner__5d473, .childContainer__91a9d {
+    padding: 0px!important;
+    display: flex!important;
+    align-items: center!important;
+    align-content: center!important;
+    max-width: 100%;
+}
+
+.avatar__91a9d {
+    scale: 0.75;
+    margin-right: 4px;
+}
+
+.content__91a9d {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.memberInner__5d473 {
+    position: absolute;
+    top: calc(0px - var(--space-xxs) / 3);
+    left: var(--space-xxs);
+    max-width: calc(100% - var(--space-sm));
+}
+
+.membersGroup_c8ffbb {
+    padding: var(--space-xs) var(--space-xxs) var(--space-xs) var(--space-sm)!important;
+}
+
+/* Make chatbar more constsistent */
+.channelBottomBarArea_f75fb0>div {
+  margin: 5px 6px 9px 6px !important;
+  min-height: 60px;
+}
+
+.channelBottomBarArea_f75fb0>div>div.scrollableContainer__74017 {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-4px);
+  width: 100%;
+}
+
+.attachWrapper__0923f>button {
+  margin-left: -9px !important;
+}
+
+.stackedBars__74017 {
+  margin-bottom: 55px;
+}
+
+.typing_b88801.base_b88801 {
+  margin-bottom: 6px;
+  margin-left: 4px;
+}
+
+.typing_b88801.base_b88801 > * {
+  line-height: 10px !important;
+  font-size: 10px !important;
+}
+
+.typing_b88801.base_b88801 > div > span > strong > div > svg {
+  height:10px !important;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
 
 /*
 * ||||||||||||||||||||||||||||||||||||||
