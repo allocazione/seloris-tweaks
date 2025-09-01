@@ -22,6 +22,7 @@
 * ||||||||||||||||||||||||||||||||||||||
 */
 
+
 /* Transparent quick switcher */
 @import url('https://raw.githubusercontent.com/acheronx0577/Transparent-Quick-Switcher-Discord/main/Transparent%20Quick%20Switcher.css');
 /* Simplified panels area */
@@ -375,6 +376,11 @@ align-content: center;
   height:10px !important;
   margin-left: 3px;
   margin-top: 3px;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    display: none;
 }
 
 
