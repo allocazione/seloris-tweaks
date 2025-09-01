@@ -26,6 +26,8 @@
 @import url('https://raw.githubusercontent.com/acheronx0577/Transparent-Quick-Switcher-Discord/main/Transparent%20Quick%20Switcher.css');
 /* Simplified panels area */
 @import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
+/* Add Apple-like icons for emojis */
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
 /* Remove excessive clutter in Discord */
 @import url('https://abbie.github.io/discord-css/import.css');
 
