@@ -383,6 +383,11 @@ align-content: center;
     display: none;
 }
 
+/* Add chat-input fix */
+.align-chat-input .inner_e131a9, .align-chat-input .rtcConnectionStatus__06d62 {
+    height: fit-content
+}
+
 
 /*
 * ||||||||||||||||||||||||||||||||||||||
