@@ -75,9 +75,18 @@
 
 .voiceUsers__68617 {
   flex-wrap: wrap !important;
+  transition: none !important;
+  justify-content: flex-start !important;
 }
 
 .avatarContainer__68617 {
+  transition: none !important;
+  animation: none !important;
+  mask-image: none !important;
+  margin-right: 2px !important;
+}
+
+.avatar__68617 {
   transition: none !important;
 }
 
