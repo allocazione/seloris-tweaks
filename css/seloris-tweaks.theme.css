@@ -25,8 +25,6 @@
 
 /* Transparent quick switcher */
 @import url('https://raw.githubusercontent.com/acheronx0577/Transparent-Quick-Switcher-Discord/main/Transparent%20Quick%20Switcher.css');
-/* Simplified panels area */
-@import url('https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css');
 /* Add Apple-like icons for emojis */
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
 /* Remove excessive clutter in Discord */
@@ -64,31 +62,6 @@
 * ||||||||||||||||||||||||||||||||||||||
 */
 
-
-/* Fix voice users avatar flashing */
-.voiceUsers_e131a9 {
-  transition: none !important;
-  overflow: hidden !important;
-  overflow-y: auto !important;
-  max-height: unset !important;
-}
-
-.voiceUsers__68617 {
-  flex-wrap: wrap !important;
-  transition: none !important;
-  justify-content: flex-start !important;
-}
-
-.avatarContainer__68617 {
-  transition: none !important;
-  animation: none !important;
-  mask-image: none !important;
-  margin-right: 2px !important;
-}
-
-.avatar__68617 {
-  transition: none !important;
-}
 
 /* Make context menu more compact */
 .layer_da8173 > .menu_c1e9c4 {
